@@ -1,0 +1,463 @@
+@charset "utf-8";
+
+/* 1200이상 */
+@media all and ( min-width:1200px ){
+
+    #bottom_wrap{
+        clear:both;
+        width:100%;
+        max-width:1900px;
+        margin:150px auto 0 auto;
+        height:210px;
+    }
+
+    #bottom_top_wrap{
+        width:100%;
+        max-width:1900px;
+        height:50px;
+        background-color:#333333;
+    }
+
+    #bottom_top_wrap > nav{
+        max-width:1240px;
+        height:50px;
+        width:100%;
+        margin:0 auto;
+    }
+
+    .bottom_nav{
+        float:left;
+        height:50px;
+        margin-left:1%;
+    }
+
+    .bottom_nav > li{
+        float:left;
+        height:50px;
+        line-height:50px;
+        font-size:14px;
+        padding-left:13px;
+        padding-right:15px;
+        position:relative;
+    }
+
+    .bottom_nav > li:first-child{ padding-left:0; }
+    .bottom_nav > li:last-child{ padding-right:0; }
+    .bottom_nav > li:last-child::after{ display:none; }
+
+    .bottom_nav > li::after{
+        content:"";
+        position:absolute;
+        right:0;
+        top:50%;
+        transform:translateY(-50%);
+        width:2px;
+        height:12px;
+        background-color:rgba(255,255,255,0.3);
+    } /* l */
+
+    .bottom_nav > li > a{ color:#ffffff; }
+
+    .family_site_nav{
+        float:right;
+        height:50px;
+        margin-right:1%;
+    } /* family site */
+
+    .family_site_nav li{
+        float:left;
+        height:50px;
+        line-height:50px;
+        padding:0 10px;
+        font-size:14px;
+    }
+
+    .family_site_nav li:first-child{
+        color:#ffffff;
+        padding-left:0;
+        padding-right:15px;
+        font-size:15px;
+    }
+
+    .family_site_nav li:last-child{ padding-right:0; }
+
+    .family_site_nav li a{
+        color:#ffffff; 
+    }
+
+    .family_site_nav li a:hover{ text-decoration: underline; }
+
+    #bottom__add_wrap{
+        clear:both;
+        width:100%;
+        max-width:1900px;
+        height:160px;
+        background-color:#eaeaea;
+    }
+
+    #doosung_address{
+        margin:0 auto;
+        width:100%;
+        max-width:1240px;
+        font-style:normal;
+        padding:20px 1%;
+    } /* address tag */
+
+    #doosung_address > dl{
+        float:left;
+        height:auto;
+        width:260px;
+    }
+
+    #doosung_address > #doosung_seocho{
+        margin-right:20px;
+    } /* 두성종이 서초 */
+
+    #doosung_address > dl > dt{
+        font-size:14px;
+        font-weight:bold;
+        margin-bottom:15px;
+    }
+
+    #doosung_address > dl > dd{
+        font-size:12px;
+        font-weight:bold;
+        color:#333333;
+        margin-bottom:5px;
+    }
+    #doosung_address > dl > dd:nth-of-type(4){ margin-bottom: 0; }
+
+    #doosung_address > #doosung_add{
+        float:right;
+    } /* 하단 우측 */
+
+    #doosung_address > #doosung_add > div{ 
+        float:left;
+        height:120px;
+        padding-top:25px;}
+
+    #doosung_address > #doosung_add > div > p{
+        font-size:13px;
+        font-weight:bold;
+        margin-bottom:8px;
+        color:#333333;
+    }
+    #doosung_address > #doosung_add > p{ 
+        float:right; 
+        margin-left:50px;
+    } /* 하단 두성종이 로고 */
+}
+
+@media all and ( min-width:768px ) and ( max-width: 1199px ){
+    #bottom_wrap{
+        clear:both;
+        width:100%;
+        margin:150px auto 0 auto;
+        height:210px;
+    }
+
+    #bottom_top_wrap{
+        width:100%;
+        height:80px;
+        background-color:#333333;
+        text-align:center;
+    }
+
+    #bottom_top_wrap > nav{
+        height:80px;
+        width:100%;
+        margin:0 auto;
+        padding:0 2%;
+    }
+
+    .bottom_nav{
+        padding:0 120px;
+        height:40px;
+        display:inline-block;
+    } /* 개인정보 취급방침이용약관1 : 1 문의공지사항ABOUT US */
+
+    .bottom_nav > li{
+        float:left;
+        height:40px;
+        line-height:40px;
+        font-size:14px;
+        padding-left:13px;
+        padding-right:15px;
+        position:relative;
+    }
+
+    .bottom_nav > li:first-child{ padding-left:0; }
+    .bottom_nav > li:last-child{ padding-right:0; }
+    .bottom_nav > li:last-child::after{ display:none; }
+
+    .bottom_nav > li::after{
+        content:"";
+        position:absolute;
+        right:0;
+        top:50%;
+        transform:translateY(-50%);
+        width:2px;
+        height:12px;
+        background-color:rgba(255,255,255,0.3);
+    } /* l */
+
+    .bottom_nav > li > a{ color:#ffffff; }
+
+    .family_site_nav{
+        padding:0 50px;
+        height:40px;
+        display:inline-block;
+        margin-top:-5px;
+
+    } /* family site */
+
+    .family_site_nav li{
+        float:left;
+        height:40px;
+        line-height:40px;
+        padding:0 10px;
+        text-align:center;
+    }
+
+    .family_site_nav li:first-child{
+        font-size:15px;
+        color:#ffffff;
+        padding-left:0;
+        padding-right:15px;
+    }
+
+    .family_site_nav li:last-child{ padding-right:0; }
+
+    .family_site_nav li+li{
+        font-size:14px;
+    }
+
+    .family_site_nav li a{ color:#ffffff; }
+
+    .family_site_nav li a:hover{ text-decoration: underline; }
+
+    #bottom__add_wrap{
+        clear:both;
+        width:100%;
+        height:320px;
+        background-color:#eaeaea;
+    }
+
+    #doosung_address{
+        margin:0 auto;
+        width:540px;
+        padding-top:20px;
+        font-style:normal;
+    } /* address tag */
+
+    #doosung_address > dl{
+        float:left;
+        height:auto;
+        width:260px;
+        text-align:center;
+    }
+
+    #doosung_address > dl > dt{
+        font-size:14px;
+        font-weight:bold;
+        margin-bottom:15px;
+    }
+
+    #doosung_address > dl > dd{
+        font-size:12px;
+        font-weight:bold;
+        color:#333333;
+        margin-bottom:5px;
+    }
+    #doosung_address > dl > dd:nth-of-type(4){ margin-bottom: 0; }
+
+    #doosung_address > #doosung_add{
+        clear:both;
+        height:160px;
+        /* border:1px solid red; */
+        padding:40px 30px;
+    }
+
+    #doosung_address > #doosung_add > div{ 
+        float:left;
+        height:120px;
+        padding-top:20px;}
+
+    #doosung_address > #doosung_add > div > p{
+        font-size:13px;
+        margin-bottom:8px;
+        font-weight:bold;
+        color:#333333;
+    }
+    #doosung_address > #doosung_add > p{ float:right; }
+
+}
+
+@media all and ( max-width:767px ){
+    #bottom_wrap{
+        clear:both;
+        min-width:340px;
+        width:100%;
+        margin:150px auto 0 auto;
+        height:210px;
+    }
+
+    #bottom_top_wrap{
+        width:100%;
+        height:80px;
+        background-color:#333333;
+        text-align:center;
+    }
+
+    #bottom_top_wrap > nav{
+        height:80px;
+        width:100%;
+        margin:0 auto;
+        padding:0 2%;
+    }
+
+    .bottom_nav{
+        height:50%;
+        display:inline-block;
+    } /* 개인정보 취급 방침, 이용약관... */
+
+    @media all and ( min-width:670px ){
+        .bottom_nav{
+            height:50%;
+            padding:0 50px;
+            display:inline-block;
+        }
+    }
+
+    .bottom_nav > li{
+        float:left;
+        height:40px;
+        line-height:40px;
+        font-size:12px;
+        padding-left:5px;
+        padding-right:6px;
+        position:relative;
+    }
+
+    .bottom_nav > li:first-child{ padding-left:0; }
+    .bottom_nav > li:last-child{ padding-right:0; }
+    .bottom_nav > li:last-child::after{ display:none; }
+
+    .bottom_nav > li::after{
+        content:"";
+        position:absolute;
+        right:0;
+        top:50%;
+        transform:translateY(-50%);
+        width:1px;
+        height:12px;
+        background-color:rgba(255,255,255,0.3);
+    } /* l */
+
+    .bottom_nav > li > a{ color:#ffffff; }
+
+    .family_site_nav{
+        height:40px;
+        display:inline-block;
+        margin-top:-5px;
+    } /* family site.. */
+
+    .family_site_nav li{
+        float:left;
+        height:40px;
+        line-height:40px;
+        padding:0 10px;
+        text-align:center;
+    }
+
+    .family_site_nav li:first-child{
+        font-size:14px;
+        color:#ffffff;
+        padding-left:0;
+        padding-right:15px;
+    }
+
+    .family_site_nav li:last-child{ padding-right:0; }
+
+    .family_site_nav li+li{
+        font-size:12px;
+    }
+
+    .family_site_nav li a{ color:#ffffff; }
+
+    #bottom__add_wrap{
+        clear:both;
+        width:100%;
+        overflow:hidden;
+        background-color:#eaeaea;
+    } /* */
+
+    #doosung_address{
+        margin:0 auto;
+        min-width:340px;
+        width:100%;
+        padding-top:20px;
+        font-style:normal;
+    } /* address tag */
+
+    #doosung_address > dl{
+        height:auto;
+        width:80%;
+        margin:0 auto;
+        text-align:center;
+        background-color:#dddddd;
+    } /* 오프라인 매장 서초, 을지로 */
+
+    #doosung_address > dl > dt{
+        font-size:14px;
+        height:30px;
+        line-height:26px;
+        font-weight:bold;
+        margin-bottom:10px;
+        background-color:#eaeaea;
+        /* border:2px solid #999999; */
+    }
+
+    #doosung_address > dl > dd{
+        font-size:12px;
+        margin-bottom:5px;
+        font-weight:bold;
+        color:#333333;
+    }
+
+    #doosung_address > dl > dd:nth-of-type(4){
+        margin-bottom: 0;
+        padding-bottom:10px;
+    } /* 오프라인 매장 주소 txt */
+
+
+    #doosung_address > #doosung_add{
+        margin:20px auto 0 auto;
+        clear:both;
+        height:100px;
+        min-width:340px;
+        width:365px;
+    } /* 두성종이 회사 address */
+
+    #doosung_address > #doosung_add > div{ 
+        float:left;
+        height:100px;
+    }
+
+    #doosung_address > #doosung_add > div > p{
+        font-size:11px;
+        font-weight:bold;
+        color:#333333;
+        margin-bottom:5px;
+    }
+    #doosung_address > #doosung_add > p{
+        float:right;
+        width:60px;
+        text-align:right;
+    }
+
+    #doosung_address > #doosung_add > p >img{
+        width:80%;
+        height:auto;
+    } /* 하단 두성 로고 */
+}

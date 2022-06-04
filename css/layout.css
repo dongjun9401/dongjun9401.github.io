@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+@import "top.css";
+@import "main_contnets_d.css";
+@import "main_contnets_t.css";
+@import "main_contnets_m.css";
+@import "bottom.css";
+
+body{ font:normal 12px /1.5em "Noto Sans KR",sans-serif;}
+
+*{ box-sizing:border-box; }
+
+
+
